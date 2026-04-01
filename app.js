@@ -134,15 +134,21 @@ function openBook(index){
       <div class="translation" id="t${i}">
         ${p.es}
       </div>
-      <button class="btn-translate" onclick="toggleTranslation(${i})">
-        Ver traducción
+      
+      <div class="actions">
+     
+     <button class="btn-translate" onclick="toggleTranslation(${i})">
+        👁️ 
       </button> 
+      
       <button class="btn-pronounce" onclick="speakParagraph('${p.en.replace(/'/g,"")}')">
   🔊
 </button>
-<button class="btn-mic" onclick="startListening(${i})">
+
+       <button class="btn-mic" onclick="startListening(${i})">
   🎤
-</button>  `
+</button> 
+</div>  `
      ;
   });
 }
