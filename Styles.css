@@ -168,6 +168,25 @@ button:hover{
   margin-bottom:20px;
 }
 
+.actions{
+  display:flex;
+  width:100%;/* LOS PONE EN HORIZONTAL */
+  align-items:center;
+  gap:6px;
+  margin-top:5px;
+  flex-wrap:wrap;/* para que no se rompa en móviles */
+  background:#e6e6e6; 
+  border-radius:5px; 
+}
+.actions button{
+  flex:1;              /*todos ocupan el mismo espacio */
+  text-align:center;
+  background:transparent;
+  
+}
+.actions button:not(:last-child){
+  border-right:2px solid #ccc;
+}
 /* RESPONSIVE */
 @media(max-width:600px){
   .document{
@@ -190,11 +209,6 @@ button:hover{
     line-height:1.6;
   }
 
-  button{
-    display:block;
-    width:100%;
-    margin-top:5px;
-  }
 
   .btn-pronounce{
     margin-left:0;
