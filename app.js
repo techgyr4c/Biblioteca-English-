@@ -138,7 +138,7 @@ function openBook(index){
       <div class="actions">
      
      <button class="btn-translate" onclick="toggleTranslation(${i})">
-        👁️ 
+        Ver Traducción 
       </button> 
       
       <button class="btn-pronounce" onclick="speakParagraph('${p.en.replace(/'/g,"")}')">
