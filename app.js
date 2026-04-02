@@ -142,11 +142,11 @@ function openBook(index){
       </button> 
       
       <button class="btn-pronounce" onclick="speakParagraph('${p.en.replace(/'/g,"")}')">
-  🔊
+  <i class="fa-solid fa-volume-high"></i>
 </button>
 
        <button class="btn-mic" onclick="startListening(${i})">
-  🎤
+  <i class="fa-solid fa-microphone"></i>
 </button> 
 </div>  `
      ;
