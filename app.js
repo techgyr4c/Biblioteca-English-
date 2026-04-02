@@ -1,3 +1,5 @@
+let recognition;
+let listening = false;
 /* ===== DATOS LIBROS ===== */
 const booksData = [
 {
@@ -126,7 +128,7 @@ function openBook(index){
   booksData[index].content.forEach((p,i)=>{
     content.innerHTML+=`
       <p class="${i===0?'first-letter':''}">
-        ${wrapWords(p.en)}
+        ${wrapWords(p.en, i)}
       </p>
        <div class="phonetic">
     ${p.ph}
@@ -166,10 +168,21 @@ function toggleTranslation(i){
 }
 
 /* ===== PALABRAS CLICKEABLES ===== */
-function wrapWords(text){
-  return text.split(" ").map(word=>
-    `<span onclick="speak('${word.replace(/[^a-zA-Z]/g,'')}')">${word}</span>`
-  ).join(" ");
+function wrapWords(text, index){
+  return text.split(" ").map((word,i)=>{
+    const cleanWord = word.replace(/[^a-zA-Z]/g,'').toLowerCase();
+
+    return `
+      <span 
+        class="word" 
+        data-index="${index}" 
+        data-word="${cleanWord}"
+        onclick="speak('${cleanWord}')"
+      >
+        ${word}
+      </span>
+    `;
+  }).join(" ");
 }
 
 /* ===== VOZ ===== */
@@ -188,6 +201,7 @@ function speakParagraph(text){
 }
 
 function startListening(index){
+
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if(!SpeechRecognition){
@@ -195,28 +209,54 @@ function startListening(index){
     return;
   }
 
-  const recognition = new SpeechRecognition();
+  // 🔁 SI YA ESTÁ ESCUCHANDO → DETENER
+  if(listening){
+    recognition.stop();
+    listening = false;
+    console.log("🛑 Micrófono apagado");
+    return;
+  }
+
+  // 🎤 INICIAR
+  recognition = new SpeechRecognition();
   recognition.lang = "en-US";
-  recognition.interimResults = false;
+  recognition.interimResults = true;
+  recognition.continuous = true;
 
   recognition.start();
+  listening = true;
+
+  console.log("🎤 Micrófono encendido");
+
+  const spans = document.querySelectorAll(`span[data-index="${index}"]`);
 
   recognition.onresult = function(event){
-    const spoken = event.results[0][0].transcript.toLowerCase();
-    const original = booksData
-      .flatMap(b => b.content)
-      [index].en.toLowerCase();
+    const transcript = Array.from(event.results)
+      .map(r => r[0].transcript)
+      .join("")
+      .toLowerCase();
 
-    console.log("Dijiste:", spoken);
+    const spokenWords = transcript.split(" ");
 
-    if(spoken.includes(original.substring(0,10))){
-      alert("✅ Bien pronunciado");
-    }else{
-      alert("❌ Intenta de nuevo");
-    }
+    spans.forEach(s => s.classList.remove("active"));
+
+    spokenWords.forEach((word,i)=>{
+      if(spans[i]){
+        spans[i].classList.add("active");
+
+        if(word === spans[i].dataset.word){
+          spans[i].classList.add("correct");
+          spans[i].classList.remove("incorrect");
+        }else{
+          spans[i].classList.add("incorrect");
+          spans[i].classList.remove("correct");
+        }
+      }
+    });
   };
 
-  recognition.onerror = function(){
-    alert("Error al reconocer voz");
+  recognition.onend = function(){
+    listening = false;
+    console.log("Micrófono detenido");
   };
 }
