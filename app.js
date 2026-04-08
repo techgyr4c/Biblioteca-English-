@@ -97,7 +97,267 @@ content:[
 {en:"Stay focused and keep improving your skills.",ph:"stei fóucost and kip imprúvin yor skils",es:"Mantente enfocado y sigue mejorando tus habilidades."},
 {en:"Because one day, all this work will open new doors.",ph:"bicós uan dei, ol dis uork uil óupen niu dors",es:"Porque un día, todo este trabajo abrirá nuevas puertas."}
 ]
+},{
+title:"Me Before You",
+img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhREfOErh-iOjjhPBvC-YxE09ma4mbKov8w&s",
+content:[
+{
+en:"Have you ever met someone who changed your life forever?",
+ph:"jav yu éver met somuan ju cheinchd yor laif forevér",
+es:"¿Alguna vez conociste a alguien que cambió tu vida para siempre?"
+},
+{
+en:"She lived a simple life, full of routine and quiet dreams.",
+ph:"shi livd a símpl laif, ful ov rutin and kuaiet drims",
+es:"Ella vivía una vida simple, llena de rutina y sueños tranquilos."
+},
+{
+en:"He had everything… until he lost it all.",
+ph:"ji jad évriting… antíl ji lost it ol",
+es:"Él lo tenía todo… hasta que lo perdió todo."
+},
+{
+en:"Two completely different worlds… about to collide.",
+ph:"tu compítili díferent uorlds… abaut tu koláid",
+es:"Dos mundos completamente diferentes… a punto de chocar."
+},
+{
+en:"She brought color into his gray world.",
+ph:"shi brot kolor intu jis grei uorld",
+es:"Ella trajo color a su mundo gris."
+},
+{
+en:"And he showed her how to truly live.",
+ph:"and ji shoud jer jau tu trúli liv",
+es:"Y él le mostró cómo vivir de verdad."
+},
+{
+en:"It wasn't easy. It wasn't perfect.",
+ph:"it wózent ísi. it wózent pérfekt",
+es:"No fue fácil. No fue perfecto."
+},
+{
+en:"But it was real… and unforgettable.",
+ph:"bat it uoz ríal… and anfórgetabol",
+es:"Pero fue real… e inolvidable."
+},
+{
+en:"Because some people come into your life…",
+ph:"bikós som pípol cam intu yor laif…",
+es:"Porque algunas personas llegan a tu vida…"
+},
+{
+en:"just to change it forever.",
+ph:"yost tu cheinch it forevér",
+es:"solo para cambiarla para siempre."
 }
+]
+},{
+title:"The Titanic",
+img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdVJ7AKQGirhWHH5Z9OzBjtczQ9RKLdYD2g&s",
+content:[
+{en:"Every morning, you sit at the same desk with new challenges ahead.",ph:"évri mórning, yu sit at de seim desk uiz niu chálensiz ajéd",es:"Cada mañana, te sientas en el mismo escritorio con nuevos desafíos por delante."},
+{en:"Deadlines, emails, and meetings fill your day.",ph:"dédlains, iméils, and mírins fil yor dei",es:"Fechas límite, correos y reuniones llenan tu día."},
+{en:"Sometimes it feels repetitive and exhausting.",ph:"sámtaims it fils ripétitiv and exóstin",es:"A veces se siente repetitivo y agotador."},
+{en:"But every task you complete builds your discipline.",ph:"bat évri task yu complít bilds yor dísciplin",es:"Pero cada tarea que completas construye tu disciplina."},
+{en:"You learn to manage time and solve problems.",ph:"yu lern tu mánaych taim and solv próblems",es:"Aprendes a gestionar el tiempo y resolver problemas."},
+{en:"Not every day is exciting, but every day matters.",ph:"not évri dei is exáitin, bat évri dei máters",es:"No todos los días son emocionantes, pero cada día importa."},
+{en:"Your effort shapes your future step by step.",ph:"yor éfort sheips yor fiúcher step bai step",es:"Tu esfuerzo moldea tu futuro paso a paso."},
+{en:"Even small progress is still progress.",ph:"íven smol prógres is stil prógres",es:"Incluso el pequeño progreso sigue siendo progreso."},
+{en:"Stay focused and keep improving your skills.",ph:"stei fóucost and kip imprúvin yor skils",es:"Mantente enfocado y sigue mejorando tus habilidades."},
+{en:"Because one day, all this work will open new doors.",ph:"bicós uan dei, ol dis uork uil óupen niu dors",es:"Porque un día, todo este trabajo abrirá nuevas puertas."}
+]
+},{
+title:"my fault",
+img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtOhBEqwCR_DNnRZe0QVCTQ3-qclTk37j69Q&s",
+content:[
+{
+en:"I tried to hate you… I really did.",
+ph:"ai traid tu jeit iu… ai ríali did",
+es:"Intenté odiarte… de verdad lo hice."
+},
+{
+en:"But every time you looked at me… I forgot why.",
+ph:"bat évri taim yu lukt at mi… ai forgót uai",
+es:"Pero cada vez que me mirabas… olvidaba por qué."
+},
+{
+en:"You were everything I wasn’t supposed to want.",
+ph:"yu uer évriting ai wózent supóusd tu uant",
+es:"Eras todo lo que no debía querer."
+},
+{
+en:"Dangerous, complicated… irresistible.",
+ph:"déincheros, komplikeited… irresistíbol",
+es:"Peligroso, complicado… irresistible."
+},
+{
+en:"And yet… you made me feel safe.",
+ph:"and yet… yu meid mi fil seif",
+es:"Y aun así… me hacías sentir segura."
+},
+{
+en:"With you, nothing made sense… but everything felt right.",
+ph:"uiz iu, nóthing meid sens… bat évriting felt rait",
+es:"Contigo, nada tenía sentido… pero todo se sentía bien."
+},
+{
+en:"We fought, we broke… but we always came back.",
+ph:"ui fot, ui brouk… bat ui ólweis keim bak",
+es:"Discutimos, nos rompimos… pero siempre volvimos."
+},
+{
+en:"Because loving you was never a choice.",
+ph:"bikós lóving iu uoz néver a chois",
+es:"Porque amarte nunca fue una elección."
+},
+{
+en:"It was a risk… I was willing to take.",
+ph:"it uoz a risk… ai uoz uíling tu teik",
+es:"Era un riesgo… que estaba dispuesta a tomar."
+},
+{
+en:"Even if it meant losing everything…",
+ph:"íven if it ment lúzing évriting…",
+es:"Incluso si eso significaba perderlo todo…"
+},
+{
+en:"I would still choose you.",
+ph:"ai ud stil chúz iu",
+es:"Aun así… te elegiría a ti."
+}
+]
+},{
+title:"The Titanic",
+img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdVJ7AKQGirhWHH5Z9OzBjtczQ9RKLdYD2g&s",
+content:[
+{en:"Every morning, you sit at the same desk with new challenges ahead.",ph:"évri mórning, yu sit at de seim desk uiz niu chálensiz ajéd",es:"Cada mañana, te sientas en el mismo escritorio con nuevos desafíos por delante."},
+{en:"Deadlines, emails, and meetings fill your day.",ph:"dédlains, iméils, and mírins fil yor dei",es:"Fechas límite, correos y reuniones llenan tu día."},
+{en:"Sometimes it feels repetitive and exhausting.",ph:"sámtaims it fils ripétitiv and exóstin",es:"A veces se siente repetitivo y agotador."},
+{en:"But every task you complete builds your discipline.",ph:"bat évri task yu complít bilds yor dísciplin",es:"Pero cada tarea que completas construye tu disciplina."},
+{en:"You learn to manage time and solve problems.",ph:"yu lern tu mánaych taim and solv próblems",es:"Aprendes a gestionar el tiempo y resolver problemas."},
+{en:"Not every day is exciting, but every day matters.",ph:"not évri dei is exáitin, bat évri dei máters",es:"No todos los días son emocionantes, pero cada día importa."},
+{en:"Your effort shapes your future step by step.",ph:"yor éfort sheips yor fiúcher step bai step",es:"Tu esfuerzo moldea tu futuro paso a paso."},
+{en:"Even small progress is still progress.",ph:"íven smol prógres is stil prógres",es:"Incluso el pequeño progreso sigue siendo progreso."},
+{en:"Stay focused and keep improving your skills.",ph:"stei fóucost and kip imprúvin yor skils",es:"Mantente enfocado y sigue mejorando tus habilidades."},
+{en:"Because one day, all this work will open new doors.",ph:"bicós uan dei, ol dis uork uil óupen niu dors",es:"Porque un día, todo este trabajo abrirá nuevas puertas."}
+]
+},{
+title:"Teresa",
+img:"https://images.vix.com/prd/videos/video:mcp:3036497/76b85fc99fc14d509c79084185d206cf",
+content:[
+{
+en:"To be… or not to be… that has always been my question.",
+ph:"tu bi… or not tu bi… dat jas ólweis bin mai kuéstion",
+es:"Ser… o no ser… esa siempre ha sido mi pregunta."
+},
+{
+en:"I was born with nothing… but I refuse to die the same way.",
+ph:"ai uoz born uiz nóthing… bat ai rifiús tu dai de seim uei",
+es:"Nací sin nada… pero me niego a morir igual."
+},
+{
+en:"They judge me, they point at me… but they don’t understand.",
+ph:"dei yach mi, dei point at mi… bat dei dont anderstánd",
+es:"Me juzgan, me señalan… pero no entienden."
+},
+{
+en:"In this world, love is a luxury… and power is everything.",
+ph:"in dis uorld, lov is a lákshuri… and páuer is évriting",
+es:"En este mundo, el amor es un lujo… y el poder lo es todo."
+},
+{
+en:"Should I follow my heart… or my ambition?",
+ph:"shud ai fólo mai jart… or mai ambíshon",
+es:"¿Debo seguir mi corazón… o mi ambición?"
+},
+{
+en:"Because every choice has a price… and I’m willing to pay it.",
+ph:"bikós évri chois jas a prais… and aim uíling tu pei it",
+es:"Porque cada decisión tiene un precio… y estoy dispuesta a pagarlo."
+},
+{
+en:"I won’t be poor, I won’t be invisible… never again.",
+ph:"ai wont bi pur, ai wont bi invisíbol… néver aguein",
+es:"No seré pobre, no seré invisible… nunca más."
+},
+{
+en:"Even if I have to lose myself along the way.",
+ph:"íven if ai jav tu luz maiself along de uei",
+es:"Incluso si tengo que perderme en el camino."
+},
+{
+en:"Because in the end…",
+ph:"bikós in di end…",
+es:"Porque al final…"
+},
+{
+en:"I will become everything they said I couldn’t be.",
+ph:"ai wil bikóm évriting dei sed ai cúdent bi",
+es:"Me convertiré en todo lo que dijeron que no podía ser."
+}
+]
+},{
+title:"Boys over flowers",
+img:"https://m.media-amazon.com/images/S/pv-target-images/636aa20af0ae59e780470ed870548aae32594ba9a1b930e69879cf6178ac8d84.jpg",
+content:[
+{
+en:"Why do you always follow me?",
+ph:"uai du yu ólweis fólou mi",
+es:"¿Por qué siempre me sigues?"
+},
+{
+en:"Because I can’t stay away from you.",
+ph:"bikós ai kant stei auéi from iu",
+es:"Porque no puedo alejarme de ti."
+},
+{
+en:"You’re annoying, arrogant… and impossible.",
+ph:"yur anóing, árrogant… and imposíbol",
+es:"Eres molesto, arrogante… e imposible."
+},
+{
+en:"But you’re the only one who dares to stand against me.",
+ph:"bat yur di ónli uan ju ders tu stand aguéinst mi",
+es:"Pero eres la única que se atreve a enfrentarse a mí."
+},
+{
+en:"I don’t like your world… I don’t belong there.",
+ph:"ai dont laik yor uorld… ai dont bilong der",
+es:"No me gusta tu mundo… no pertenezco ahí."
+},
+{
+en:"Then I’ll leave that world… if it means being with you.",
+ph:"den ail liv dat uorld… if it mins bíing uiz iu",
+es:"Entonces dejaré ese mundo… si significa estar contigo."
+},
+{
+en:"You say that now… but you don’t understand how hard it is.",
+ph:"yu sei dat nau… bat yu dont anderstánd jau jard it is",
+es:"Dices eso ahora… pero no entiendes lo difícil que es."
+},
+{
+en:"I don’t care about anything else… only you.",
+ph:"ai dont ker abáut énything els… ónli iu",
+es:"No me importa nada más… solo tú."
+},
+{
+en:"Why are you doing this?",
+ph:"uai ar yu dúing dis",
+es:"¿Por qué haces esto?"
+},
+{
+en:"Because I love you… Geum Jan-di.",
+ph:"bikós ai lov iu… gum yan-di",
+es:"Porque te amo… Geum Jan-di."
+},
+{
+en:"…Then don’t let go of my hand.",
+ph:"den dont let gou ov mai jand",
+es:"…Entonces no sueltes mi mano."
+}
+]
+},
 ];
 
 /* ===== CREAR LIBROS ===== */
