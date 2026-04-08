@@ -274,18 +274,63 @@ es:"Aun así… te elegiría a ti."
 ]
 },{
 title:"The Titanic",
-img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdVJ7AKQGirhWHH5Z9OzBjtczQ9RKLdYD2g&s",
+img:"https://m.media-amazon.com/images/S/pv-target-images/860b956d0dca4f2e24860d62364353dd271732f0e86bb74cfdb01b9641942c59.jpg",
 content:[
-{en:"Every morning, you sit at the same desk with new challenges ahead.",ph:"évri mórning, yu sit at de seim desk uiz niu chálensiz ajéd",es:"Cada mañana, te sientas en el mismo escritorio con nuevos desafíos por delante."},
-{en:"Deadlines, emails, and meetings fill your day.",ph:"dédlains, iméils, and mírins fil yor dei",es:"Fechas límite, correos y reuniones llenan tu día."},
-{en:"Sometimes it feels repetitive and exhausting.",ph:"sámtaims it fils ripétitiv and exóstin",es:"A veces se siente repetitivo y agotador."},
-{en:"But every task you complete builds your discipline.",ph:"bat évri task yu complít bilds yor dísciplin",es:"Pero cada tarea que completas construye tu disciplina."},
-{en:"You learn to manage time and solve problems.",ph:"yu lern tu mánaych taim and solv próblems",es:"Aprendes a gestionar el tiempo y resolver problemas."},
-{en:"Not every day is exciting, but every day matters.",ph:"not évri dei is exáitin, bat évri dei máters",es:"No todos los días son emocionantes, pero cada día importa."},
-{en:"Your effort shapes your future step by step.",ph:"yor éfort sheips yor fiúcher step bai step",es:"Tu esfuerzo moldea tu futuro paso a paso."},
-{en:"Even small progress is still progress.",ph:"íven smol prógres is stil prógres",es:"Incluso el pequeño progreso sigue siendo progreso."},
-{en:"Stay focused and keep improving your skills.",ph:"stei fóucost and kip imprúvin yor skils",es:"Mantente enfocado y sigue mejorando tus habilidades."},
-{en:"Because one day, all this work will open new doors.",ph:"bicós uan dei, ol dis uork uil óupen niu dors",es:"Porque un día, todo este trabajo abrirá nuevas puertas."}
+{
+en:"This can’t be happening… why today of all days?",
+ph:"dis kant bi jápening… uai tudéi ov ol deis",
+es:"Esto no puede estar pasando… ¿por qué justo hoy?"
+},
+{
+en:"My hair is a disaster… and my life too.",
+ph:"mai jer is a disáster… and mai laif tu",
+es:"Mi cabello es un desastre… y mi vida también."
+},
+{
+en:"Wait… is that him? My childhood crush?",
+ph:"ueit… is dat jim? mai cháildjud krosh",
+es:"Espera… ¿ese es él? ¿Mi amor de la infancia?"
+},
+{
+en:"No, no, no… I’m not ready for this!",
+ph:"nou, nou, nou… aim not rédi for dis",
+es:"No, no, no… ¡no estoy lista para esto!"
+},
+{
+en:"Why does he look perfect… and I look like this?",
+ph:"uai dos ji luk pérfekt… and ai luk laik dis",
+es:"¿Por qué él se ve perfecto… y yo así?"
+},
+{
+en:"Okay, think… pretend to be confident.",
+ph:"okéi, think… priténd tu bi kónfident",
+es:"Ok, piensa… finge tener confianza."
+},
+{
+en:"Hello! Long time no see… oh no, that sounded weird.",
+ph:"jelóu! long taim no si… ou nou, dat sáunded uird",
+es:"¡Hola! Cuánto tiempo… oh no, eso sonó raro."
+},
+{
+en:"Why am I like this? Just act normal!",
+ph:"uai am ai laik dis? yost akt nórmal",
+es:"¿Por qué soy así? ¡Solo actúa normal!"
+},
+{
+en:"He’s smiling… wait, is he laughing at me?",
+ph:"jis smáilin… ueit, is ji láfin at mi",
+es:"Está sonriendo… espera, ¿se está riendo de mí?"
+},
+{
+en:"Okay… maybe this is a total disaster.",
+ph:"okéi… méibi dis is a tórol disáster",
+es:"Ok… tal vez esto es un desastre total."
+},
+{
+en:"But somehow… I think this is just the beginning.",
+ph:"bat sámjau… ai think dis is yost de bigíning",
+es:"Pero de alguna forma… creo que esto es solo el comienzo."
+}
 ]
 },{
 title:"Teresa",
