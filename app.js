@@ -156,16 +156,61 @@ es:"solo para cambiarla para siempre."
 title:"The Titanic",
 img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdVJ7AKQGirhWHH5Z9OzBjtczQ9RKLdYD2g&s",
 content:[
-{en:"Every morning, you sit at the same desk with new challenges ahead.",ph:"évri mórning, yu sit at de seim desk uiz niu chálensiz ajéd",es:"Cada mañana, te sientas en el mismo escritorio con nuevos desafíos por delante."},
-{en:"Deadlines, emails, and meetings fill your day.",ph:"dédlains, iméils, and mírins fil yor dei",es:"Fechas límite, correos y reuniones llenan tu día."},
-{en:"Sometimes it feels repetitive and exhausting.",ph:"sámtaims it fils ripétitiv and exóstin",es:"A veces se siente repetitivo y agotador."},
-{en:"But every task you complete builds your discipline.",ph:"bat évri task yu complít bilds yor dísciplin",es:"Pero cada tarea que completas construye tu disciplina."},
-{en:"You learn to manage time and solve problems.",ph:"yu lern tu mánaych taim and solv próblems",es:"Aprendes a gestionar el tiempo y resolver problemas."},
-{en:"Not every day is exciting, but every day matters.",ph:"not évri dei is exáitin, bat évri dei máters",es:"No todos los días son emocionantes, pero cada día importa."},
-{en:"Your effort shapes your future step by step.",ph:"yor éfort sheips yor fiúcher step bai step",es:"Tu esfuerzo moldea tu futuro paso a paso."},
-{en:"Even small progress is still progress.",ph:"íven smol prógres is stil prógres",es:"Incluso el pequeño progreso sigue siendo progreso."},
-{en:"Stay focused and keep improving your skills.",ph:"stei fóucost and kip imprúvin yor skils",es:"Mantente enfocado y sigue mejorando tus habilidades."},
-{en:"Because one day, all this work will open new doors.",ph:"bicós uan dei, ol dis uork uil óupen niu dors",es:"Porque un día, todo este trabajo abrirá nuevas puertas."}
+{
+en:"Do you trust me?",
+ph:"du yu trost mi",
+es:"¿Confías en mí?"
+},
+{
+en:"I trust you.",
+ph:"ai trost yu",
+es:"Confío en ti."
+},
+{
+en:"Close your eyes… and don’t let go.",
+ph:"klous yor ais… and dont let gou",
+es:"Cierra los ojos… y no me sueltes."
+},
+{
+en:"With you, I feel free… like I can fly.",
+ph:"uiz yu, ai fil fri… laik ai kan flai",
+es:"Contigo, me siento libre… como si pudiera volar."
+},
+{
+en:"You already can… you just didn’t know it.",
+ph:"yu olrédi kan… yu yost dídent nou it",
+es:"Ya puedes… solo que no lo sabías."
+},
+{
+en:"I came here feeling trapped…",
+ph:"ai keim jir fíling trapd…",
+es:"Vine aquí sintiéndome atrapada…"
+},
+{
+en:"and you gave me a reason to live again.",
+ph:"and yu gueiv mi a ríson tu liv aguein",
+es:"y tú me diste una razón para vivir otra vez."
+},
+{
+en:"No matter what happens… I’ll never let go of you.",
+ph:"nou máter uot jápens… ail néver let gou ov yu",
+es:"No importa lo que pase… nunca te soltaré."
+},
+{
+en:"Promise me you’ll survive… and never give up.",
+ph:"prómis mi yul surváiv… and néver guiv ap",
+es:"Prométeme que sobrevivirás… y nunca te rendirás."
+},
+{
+en:"I promise… I’ll never forget you.",
+ph:"ai prómis… ail néver forgét yu",
+es:"Lo prometo… nunca te olvidaré."
+},
+{
+en:"You will always be with me… in my heart.",
+ph:"yu wil ólweis bi uiz mi… in mai jart",
+es:"Siempre estarás conmigo… en mi corazón."
+}
 ]
 },{
 title:"my fault",
