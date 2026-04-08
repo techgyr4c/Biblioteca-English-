@@ -273,7 +273,7 @@ es:"Aun así… te elegiría a ti."
 }
 ]
 },{
-title:"The Titanic",
+title:"She was pretty",
 img:"https://m.media-amazon.com/images/S/pv-target-images/860b956d0dca4f2e24860d62364353dd271732f0e86bb74cfdb01b9641942c59.jpg",
 content:[
 {
