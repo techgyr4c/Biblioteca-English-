@@ -559,54 +559,78 @@ function startListening(index){
     return;
   }
 
-  // 🔁 SI YA ESTÁ ESCUCHANDO → DETENER
+  // Crear una sola instancia
+  if(!recognition){
+    recognition = new SpeechRecognition();
+    recognition.lang = "en-US";
+
+    // 🔥 TIEMPO REAL
+    recognition.interimResults = true;
+
+    // 🔥 Escucha continua
+    recognition.continuous = true;
+
+    recognition.maxAlternatives = 1;
+  }
+
+  //  SI YA ESTÁ ACTIVO → DETENER
   if(listening){
     recognition.stop();
     listening = false;
-    console.log("🛑 Micrófono apagado");
     return;
   }
 
-  // 🎤 INICIAR
-  recognition = new SpeechRecognition();
-  recognition.lang = "en-US";
-  recognition.interimResults = true;
-  recognition.continuous = true;
+  const spans = document.querySelectorAll(`span[data-index="${index}"]`);
 
   recognition.start();
   listening = true;
 
-  console.log("🎤 Micrófono encendido");
-
-  const spans = document.querySelectorAll(`span[data-index="${index}"]`);
-
   recognition.onresult = function(event){
+
     const transcript = Array.from(event.results)
       .map(r => r[0].transcript)
       .join("")
-      .toLowerCase();
+      .toLowerCase()
+      .replace(/[^\w\s]/g, "");
 
-    const spokenWords = transcript.split(" ");
+    const spokenWords = transcript.split(/\s+/);
 
-    spans.forEach(s => s.classList.remove("active"));
-
-    spokenWords.forEach((word,i)=>{
-      if(spans[i]){
-        spans[i].classList.add("active");
-
-        if(word === spans[i].dataset.word){
-          spans[i].classList.add("correct");
-          spans[i].classList.remove("incorrect");
-        }else{
-          spans[i].classList.add("incorrect");
-          spans[i].classList.remove("correct");
-        }
-      }
+    //  limpiar estado
+    spans.forEach(s => {
+      s.classList.remove("active","correct","incorrect");
     });
+
+    //  MARCAR EN TIEMPO REAL
+    spokenWords.forEach((word, i) => {
+
+      if(!spans[i]) return;
+
+      const expected = spans[i].dataset.word;
+
+      // palabra actual
+      spans[i].classList.add("active");
+
+      // comparación flexible
+      if(
+        word === expected ||
+        word.includes(expected) ||
+        expected.includes(word)
+      ){
+        spans[i].classList.add("correct");
+      } else {
+        spans[i].classList.add("incorrect");
+      }
+
+    });
+
+  };
+
+  recognition.onerror = function(event){
+    console.error("Error micrófono:", event.error);
+    listening = false;
   };
 
   recognition.onend = function(){
     listening = false;
-    console.log("Micrófono detenido");
   };
 }
